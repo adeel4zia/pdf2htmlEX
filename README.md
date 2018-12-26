@@ -31,7 +31,7 @@ sudo add-apt-repository ppa:coolwanglu/pdf2htmlex
 sudo apt-get update
 
 sudo apt-get install fontforge 
-sudo apt-get install poppler  if not install then sudo apt-get install python-poppler
+sudo apt-get install poppler  <strong>or</strong> sudo apt-get install python-poppler
 sudo apt-get install pdf2htmlex
 
 <strong>Usage:</strong>
