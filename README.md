@@ -25,3 +25,21 @@ Install pdf2htmlEX in Ubuntu:
 
 There is a Ubuntu PPA set up at ppa:coolwanglu/pdf2htmlex. For now, it supports only Ubuntu 12.04. Launch a terminal window from the dash home or press Ctrl+Alt+T. Copy and paste following commands into terminal and hit enter one by one to add the ppa and install pdf2htmlEX:
 
+sudo add-apt-repository ppa:coolwanglu/pdf2htmlex
+
+sudo apt-get update
+
+sudo apt-get install fontforge poppler pdf2htmlex
+
+Usage:
+
+To convert PDF to HTML use pdf2htmlEX, run this command:
+
+pdf2htmlEX /path/to/foobar.pdf
+
+For more:
+
+pdf2htmlEX --help
+
+Enjoy!
+
