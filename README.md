@@ -6,7 +6,7 @@ It is optimized for modern web browsers such as Mozilla Firefox & Google Chrome.
 
 This program is designed for scientific papers with complicate formulas and figures, so a precise rendering is also the #1 concern. But of course general PDF files are also supported.
 
-Features:
+<strong>Features:</strong>
 
 Single HTML file output
 Precise rendering
@@ -21,7 +21,8 @@ MuPDF
 PDF.js
 Crocodoc
 Google Doc
-Install pdf2htmlEX in Ubuntu:
+
+<strong>Install pdf2htmlEX in Ubuntu:</strong>
 
 There is a Ubuntu PPA set up at ppa:coolwanglu/pdf2htmlex. For now, it supports only Ubuntu 12.04. Launch a terminal window from the dash home or press Ctrl+Alt+T. Copy and paste following commands into terminal and hit enter one by one to add the ppa and install pdf2htmlEX:
 
@@ -29,9 +30,11 @@ sudo add-apt-repository ppa:coolwanglu/pdf2htmlex
 
 sudo apt-get update
 
-sudo apt-get install fontforge poppler pdf2htmlex
+sudo apt-get install fontforge 
+sudo apt-get install poppler  if not install then sudo apt-get install python-poppler
+sudo apt-get install pdf2htmlex
 
-Usage:
+<strong>Usage:</strong>
 
 To convert PDF to HTML use pdf2htmlEX, run this command:
 
